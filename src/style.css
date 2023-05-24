@@ -1,7 +1,43 @@
-body {
-  background-color: bisque;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
-.hello {
-  color: red;
+.container .board-content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.container .board-content .score,
+.container .board-content .add-score form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container .board-content .score .recent-score {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.container .board-content .add-score form button {
+  align-self: flex-end;
+  height: 20px;
+  width: 70px;
+}
+
+.container .board-content .score .recent-score button {
+  height: 20px;
+  width: 70px;
+  margin-top: 15px;
+}
+
+.container .board-content .score-table {
+  border: 1px solid black;
+}
+
+.container .board-content .score-table tr:nth-child(even) {
+  background-color: #efefef;
 }
