@@ -160,9 +160,9 @@ Example:
 
 ```
  -->
-
+<!-- 
  ## 🎯 Live Demo 
- [click here](https://gergitokusse.github.io/My-LeadBoard/dist)
+ [click here](https://gergitokusse.github.io/My-LeadBoard/dist) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
