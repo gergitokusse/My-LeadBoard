@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board Project</title>
-<script defer src="/runtime.818c65d7.js"></script><script defer src="/main.818c65d7.js"></script></head>
+<script defer src="/runtime.bf1c0930.js"></script><script defer src="/main.bf1c0930.js"></script></head>
 <body>
     <section class="container">
         <h1>Leader Board</h1>
@@ -12,31 +12,17 @@
             <div class="score">
                 <div class="recent-score">
                     <p>Recent Secor</p>
-                    <button>Refresh</button>
+                    <button class="refresh">Refresh</button>
                 </div>
-                <table class="score-table">
-                    <tr>
-                        <td>Name : 100</td>
-                    </tr>
-                    <tr>
-                        <td>Name : 50</td>
-                    </tr>
-                    <tr>
-                        <td>Name : 200</td>
-                    </tr>
-                    <tr>
-                        <td>Name : 20</td>
-                    </tr>
-                    <tr>
-                        <td>Name : 200</td>
-                    </tr>
-                </table>
+                <div class="score-table">
+                </div>
             </div>
             <div class="add-score">
                 <h3>Add Your Score</h3>
-                <form action="">
-                    <input type="text" placeholder="You Name">
-                    <input type="number" placeholder="Your Score">
+                <form class="form">
+                    <input name="user" type="text" placeholder="You Name" class="name">
+                    <input name="score" type="number" placeholder="Your Score" class="score">
+                    <div class="error">.</div>
                     <button>Submit</button>
                 </form>
             </div>

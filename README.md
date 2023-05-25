@@ -160,6 +160,9 @@ Example:
 
 ```
  -->
+<!-- 
+ ## 🎯 Live Demo 
+ [click here](https://gergitokusse.github.io/My-LeadBoard/dist) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,9 +173,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/gergitokusse)
+- Twitter: [@twitterhandle](https://twitter.com/gergitokusse)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/gergitokusse)
 
 <!-- FUTURE FEATURES -->
 

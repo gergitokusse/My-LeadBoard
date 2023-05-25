@@ -16,6 +16,18 @@
   gap: 10px;
 }
 
+.container .board-content .add-score form .error {
+  color: red;
+  font-size: 10px;
+  text-align: center;
+}
+
+.container .board-content .add-score form .success {
+  color: green;
+  font-size: 10px;
+  text-align: center;
+}
+
 .container .board-content .score .recent-score {
   display: flex;
   flex-direction: row;
@@ -35,9 +47,15 @@
 }
 
 .container .board-content .score-table {
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
 }
 
-.container .board-content .score-table tr:nth-child(even) {
+.container .board-content .score-table span {
+  padding: 3px 10px;
+}
+
+.container .board-content .score-table span:nth-child(even) {
   background-color: #efefef;
 }
