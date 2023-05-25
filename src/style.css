@@ -1,19 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
+  width: 80%;
+  align-self: center;
 }
 
 .container .board-content {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 100px;
+}
+
+.container .board-content .score {
+  width: 25%;
+}
+
+.container .board-content .add-score {
+  background-color: #efefef;
+  padding: 20px;
+  width: 30%;
+  height: 250px;
+  margin-top: 100px;
+  border: 1px solid #c4c0c0;
+  border-radius: 10px;
+  -webkit-box-shadow: 16px 19px 12px -7px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 16px 19px 12px -7px rgba(0, 0, 0, 0.36);
+  box-shadow: 16px 19px 12px -7px rgba(0, 0, 0, 0.36);
 }
 
 .container .board-content .score,
 .container .board-content .add-score form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
+}
+
+.container .board-content .add-score form input {
+  width: 95%;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .container .board-content .add-score form .error {
@@ -31,19 +62,31 @@
 .container .board-content .score .recent-score {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   column-gap: 10px;
 }
 
 .container .board-content .add-score form button {
   align-self: flex-end;
-  height: 20px;
-  width: 70px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background-color: #0b07f0;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  outline: auto;
 }
 
 .container .board-content .score .recent-score button {
-  height: 20px;
-  width: 70px;
-  margin-top: 15px;
+  background-color: #0b07f0;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 20px;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 14px;
+  outline: auto;
+  cursor: pointer;
 }
 
 .container .board-content .score-table {
@@ -53,7 +96,9 @@
 }
 
 .container .board-content .score-table span {
-  padding: 3px 10px;
+  padding: 5px 10px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .container .board-content .score-table span:nth-child(even) {
