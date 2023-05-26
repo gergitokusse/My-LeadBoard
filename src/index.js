@@ -1,8 +1,9 @@
 // eslint-disable-next-line
 import _ from 'lodash';
 import './style.css';
-import { addScore, getmyscore } from './modules/loadeandsore.js';
+import { addScore, getmyscore, getGameId } from './modules/loadeandsore.js';
 
+getGameId();
 getmyscore();
 // event handling
 const form = document.querySelector('.form');
